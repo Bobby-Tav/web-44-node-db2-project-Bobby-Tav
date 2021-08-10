@@ -5,11 +5,11 @@
   "scripts": {
     "server": "nodemon index.js",
     "test": "cross-env NODE_ENV=testing jest --watch --verbose --runInBand",
-    "up":"knex migrate:up",
-    "down":"knex migrate:down",
-    "latest":"knex migrate:latest",
-    "rollback":"knex migrate:rollback",
-    "seed":"knex seed:run"
+    "up": "knex migrate:up",
+    "down": "knex migrate:down",
+    "latest": "knex migrate:latest",
+    "rollback": "knex migrate:rollback",
+    "seed": "knex seed:run"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
